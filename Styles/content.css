@@ -1,0 +1,75 @@
+.content-section{
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    margin-top: 40px;
+}
+
+.content-section>.aboutus-page-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+    margin-top: -100px;
+    font-weight: 300;
+    width: 700px;
+}
+
+.content-section>.aboutus-page-content>.user-signup-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content-section>.aboutus-page-content>.user-signup-wrapper>.user-signup{
+    padding: 22px;
+    margin-top: -0.9px;
+    font-size: 40px;
+    font-weight: 400;
+    border-radius: 4px;
+    width: 300px;
+    height: 45px;
+    background-color: #4CCE79;
+}
+
+.content-section>.aboutus-page-content>.user-signup-wrapper>.user-signup a{
+    margin-left: 10px;
+    color: black;
+}
+.content-section>.aboutus-page-content>.user-signup-wrapper>.user-learn a{
+    padding: 20px;
+    margin-top: 20px;
+    font-size: 40px;
+    font-weight: 400;
+    background-color:black;
+    width: 220px;
+    height: 30px;
+    border-radius: 4px;
+}
+
+.content-section>.projects-page-content>.text-content-wrapper{
+    margin-top: 35px;
+    margin-left: 20px;
+    margin-bottom: -10px;
+}
+
+.content-section>.projects-page-content>.text-content-wrapper h1{
+    display: flex;
+    flex-flow: row;
+    font-size: 20px;
+} 
+
+.content-section>.projects-page-content>.text-content-wrapper p{
+    margin-left: 4px;
+    margin-top: -1px;
+    color: #74DEFC;
+}
+
+.content-section>.projects-page-content a img{
+    height: 514px;
+    margin-top: -10px;
+    margin-bottom: 5px;
+
+}
